@@ -21,6 +21,7 @@ switch(grade){
         console.log('Invalid grade, please enter valid grade.')
 }
 
+// ------------------------------------------------------------------------------ // 
 // Example 2 : creating function to checking grade with roll number and age 
 // student data
 const students = [

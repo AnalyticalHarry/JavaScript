@@ -16,7 +16,7 @@ if (x > 10 && y > 10 && z > 10) {
     console.log("At least one of the variables is not greater than 10");
 }
 
-
+// ------------------------------------------------------------------------------ // 
 // 2. Logical OR (||):
 let isRaining = true;
 let isSunny = false;
@@ -36,7 +36,7 @@ if (hasCoffee || hasTea) {
     console.log("The person has neither coffee nor tea");
 }
 
-
+// ------------------------------------------------------------------------------ // 
 // 3. Logical NOT (!):
 
 let isLoggedOut = false;

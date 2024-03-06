@@ -30,6 +30,7 @@ else {
     }
 }
 
+// ------------------------------------------------------------------------------ // 
 // condition statement example 2
 let password = 'MySecret123@'
 const minLength = 8;

@@ -1,6 +1,7 @@
 // A common use case for nested loops is generating a multiplication table. 
 // The outer loop iterates through each number you want to multiply, and the inner loop iterates through the multipliers.
 
+// ------------------------------------------------------------------------------ // 
 // Example 1
 // multiplication table for numbers 1 through 20
 for (let i = 1; i <= 5; i++) {                               // outer loop for each number
@@ -10,6 +11,7 @@ for (let i = 1; i <= 5; i++) {                               // outer loop for e
     console.log('------------');                             // separates each multiplication table
 }
 
+// ------------------------------------------------------------------------------ // 
 // Example 2
 // nested loops can also be useful for searching for pairs within an array that meet certain criteria, such as summing to a specific value.
 // finding Pairs in an Array
@@ -23,6 +25,7 @@ for (let i = 0; i < numbers.length; i++) {                  // outer loop
     }
 }
 
+// ------------------------------------------------------------------------------ // 
 // Example 3
 // elements in a 2D Array
 // Nested loops are particularly useful when working with two-dimensional arrays (arrays of arrays), 
@@ -41,6 +44,7 @@ for (let i = 0; i < matrix.length; i++) {                           // Outer loo
     }
 }
 
+// ------------------------------------------------------------------------------ // 
 // Example 4
 // grouping products by category
 // let say we have an e-commerce platform where you have a list of products, 
@@ -76,6 +80,7 @@ for (const j in groupedProducts){
     }
 }
 
+// ------------------------------------------------------------------------------ // 
 // Example 5
 // Transposing a Matrix
 // Transposing a matrix means flipping it over its diagonal, turning the matrix's rows into columns and vice versa. 

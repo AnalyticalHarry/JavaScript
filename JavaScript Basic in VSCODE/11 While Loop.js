@@ -8,6 +8,7 @@ while (i<=5){
     i++;
 }
 
+// ------------------------------------------------------------------------------ // 
 // example 2
 // number guessing using while loop
 let secretNumber = 7;                       // secret number to guess
@@ -29,6 +30,7 @@ while (index < guesses.length) {
     index++; 
 }
 
+// ------------------------------------------------------------------------------ // 
 // example 3
 // finding the First Negative Number in an Array
 // an array of numbers, and we want to find the first negative number in the array.
@@ -49,6 +51,7 @@ if (firstNegative !== null) {
     console.log("There are no negative numbers in the array.");
 }
 
+// ------------------------------------------------------------------------------ // 
 // Example 4
 // processing Until a Condition Fails
 // product of numbers as long as the product is less than a certain threshold.
@@ -85,6 +88,7 @@ while (iterator < num_values.length && product < threshold){
 }
 console.log(`Final product is ${product}, stopped multiplying as it reached or exceeded the threshold.`);
 
+// ------------------------------------------------------------------------------ // 
 // example 5 
 // This pattern can be particularly useful when dealing with loops
 // where the termination condition is based on the result of multiple complex checks or external conditions.
