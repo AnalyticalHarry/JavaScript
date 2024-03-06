@@ -14,15 +14,41 @@ let subtraction = 10 - 4;           // subtraction = 6
 let multiplication = 6 * 2;         // multiplication = 12
 let division = 20 / 5;              // division = 4
 let modulus = 10 % 3;               // modulus = 1
-let exponentiation = 10 ** 2        // exponent value = 100
+let exponentiation = 10 ** 2        // exponent value
 //printing all result on screen
 console.log(addition, subtraction, multiplication, division,exponentiation, modulus)
 
+// post increment, i ++ 
 let increment = 5; increment++;     // increment = 6
 let decrement = 10; decrement--;    // decrement = 9
 console.log(increment)
 console.log(decrement)
+// post increment, -- i
+let alpha = 50; ++alpha;
+let beta = 100; --beta;
+console.log(alpha)
+console.log(beta)
 
+let num = 200;
+// Pre-increment (++num): Increments the value of num and then returns the incremented value
+let preIncrementResult = ++num;
+console.log("Pre-increment:", preIncrementResult); 
+console.log("Updated x:", num); 
+
+// Post-increment (num++): Returns the current value of num and then increments the value
+let postIncrementResult = num++;
+console.log("Post-increment:", postIncrementResult); 
+console.log("Updated x:", num); 
+
+// Pre-decrement (--num): Decrements the value of x and then returns the decremented value
+let preDecrementResult = --num;
+console.log("Pre-decrement:", preDecrementResult); 
+console.log("Updated x:", num); 
+
+// Post-decrement (num--): Returns the current value of num and then decrements the value
+let postDecrementResult = num--;
+console.log("Post-decrement:", postDecrementResult); 
+console.log("Updated x:", num); 
 
 // Assignment Operators: These operators assign values to variables.
 // Assignment (=): Assigns the value of the right operand to the left operand.
@@ -32,22 +58,25 @@ console.log(decrement)
 // Division assignment (/=): Divides the left operand by the right operand and assigns the result to the left operand.
 // Modulus assignment (%=): Assigns the remainder of the division of the left operand by the right operand to the left operand.
 
-let x = 10;
+let x = 5;
 console.log(x)
 
-x += 5;             // x = x + 5
+x += 5;             // x = x + 5, now vlaue of x is changed
 console.log(x)
 
-x -= 3;             // x = x - 3
+x -= 3;             // x = x - 3, now vlaue of x is changed
 console.log(x)
 
-x *= 2;             // x = x * 2
+x *= 2;             // x = x * 2, now vlaue of x is changed
 console.log(x)
 
-x /= 4;             // x = x / 4
+x /= 4;             // x = x / 4, now vlaue of x is changed
 console.log(x)
 
-x %= 3;             // x = x % 3
+x %= 3;             // x = x % 3, now vlaue of x is changed
+console.log(x)
+
+x **= 4;            // x = x ** 4, now vlaue of x is changed
 console.log(x)
 
 
