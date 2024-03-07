@@ -87,3 +87,32 @@ for (let category in ecomCatalog) {
     // total stock value for the category
     console.log(`Total Stock Value for ${category}: $${categoryTotalStockValue.toFixed(2)}`);
 }
+
+// ------------------------------------------------------------------------------ // 
+// Example 6 : printing key and values
+let student = {
+  name : "Harry Thapa",
+  age : 25,
+  course : "Mechanical Engineering",
+  isPass : true
+};
+
+for (let key in student){
+  console.log("Key = ", key, "value = ", student[key]);
+}
+
+// ------------------------------------------------------------------------------ // 
+// Example 7 : printing all even numbers between 10
+for(let i = 0; i < 10; i++){
+  if (i % 2 == 0){
+      console.log(i)
+  }
+}
+
+// ------------------------------------------------------------------------------ // 
+// Example 8 : printing all odd numbers between 10
+for(let i = 0; i < 10; i++){
+  if (i % 2 !== 0){
+      console.log(i)
+  }
+}
