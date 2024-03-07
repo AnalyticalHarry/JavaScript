@@ -42,6 +42,12 @@ console.log(myFavoriteFruits);
 // styling console output
 console.log(`%cThis message is styled!`, `color: blue; font-size: 20px;`);
 
+// creating space
+console.log("Hello\n World!")
+// escape character \t is counted as single characters
+console.log("Hello\t World!")
+console.log("Hello\n World!".length)
+
 // extracting a substring from the beginning
 // H  e  l  l  o  ,     w  o  r  l  d  !
 // 0  1  2  3  4  5  6  7  8  9  10 11 12
