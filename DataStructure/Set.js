@@ -1,7 +1,3 @@
-// Data Structure in JavaScript
-// Author: Hemant Thapa
-// Date: 01.09.2024
-
 /* 
 1. declaring set 
 2. printing Unique Values or Element 
@@ -15,6 +11,16 @@
 10. using for...of loop
 11. for Each Method
 12. converting to array and use for loop
+13. adding multiple items
+14. clearing a Set
+15. delete specific items
+16. checking set if not empty set
+17. complex objects
+18. convert to Set to remove duplicates, then convert back to Array
+19. Check if fruit is in set
+20. Union, intersection and difference
+21. Set of Objects by Unique Key - json method
+22. Tracking Object Mutations
 */
 
 // 1. creating a number of set using built-in object
